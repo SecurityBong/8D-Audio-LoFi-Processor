@@ -215,7 +215,7 @@ venv\Scripts\activate
 Then run:
 
 ```cmd
-python main.py "your-song.mp3"
+python audiomaker.py "your-song.mp3"
 ```
 
 The program will display:
@@ -276,7 +276,7 @@ Long filenames and filenames containing spaces, commas, brackets, etc. are suppo
 Example:
 
 ```cmd
-python main.py "random and more randomness as this just an example to understand.mp3"
+python audiomaker.py "random and more randomness as this just an example to understand.mp3"
 ```
 
 ---
@@ -309,7 +309,7 @@ Wet level: 0.30
 Dry level: 0.80
 ```
 
-These values can be adjusted directly at the beginning of `main.py`.
+These values can be adjusted directly at the beginning of `audiomaker.py` if needed.
 
 ---
 
