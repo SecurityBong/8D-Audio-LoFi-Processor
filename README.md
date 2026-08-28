@@ -276,7 +276,7 @@ Long filenames and filenames containing spaces, commas, brackets, etc. are suppo
 Example:
 
 ```cmd
-python main.py "random.mp3"
+python main.py "random and more randomness as this just an example to understand.mp3"
 ```
 
 ---
