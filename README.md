@@ -414,5 +414,3 @@ Created by **SecurityBong A.K.A Rahul**
 If you find this project useful, consider giving the repository a ⭐ on GitHub.
 
 Suggestions, improvements, and constructive feedback are welcome.
-
-```
