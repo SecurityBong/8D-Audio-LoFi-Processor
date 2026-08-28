@@ -107,7 +107,7 @@ audioop-lts
 
 ```bash
 git clone https://github.com/SecurityBong/8D-Audio-LoFi-Processor.git
-cd YOUR_REPOSITORY
+cd 8D-Audio-LoFi-Processor
 ```
 
 Or download the repository as a ZIP and extract it.
@@ -218,12 +218,6 @@ Then run:
 python main.py "your-song.mp3"
 ```
 
-For example:
-
-```cmd
-python main.py "Tera Mera.mp3"
-```
-
 The program will display:
 
 ```text
@@ -268,13 +262,13 @@ For example:
 
 ```text
 Original:
-Fighter.mp3
+random.mp3
 
 Mode 1:
-Fighter_8D_Reverb.mp3
+random_8D_Reverb.mp3
 
 Mode 2:
-Fighter_8D_Slow_Reverb.mp3
+random_8D_Slow_Reverb.mp3
 ```
 
 Long filenames and filenames containing spaces, commas, brackets, etc. are supported.
@@ -282,7 +276,7 @@ Long filenames and filenames containing spaces, commas, brackets, etc. are suppo
 Example:
 
 ```cmd
-python main.py "FIGHTER_ Heer Aasmani (Song) Hrithik, Deepika, Anil, Vishal-Sheykhar, Bpraak, Kumaar, Piyush-Shazia.mp3"
+python main.py "random.mp3"
 ```
 
 ---
