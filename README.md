@@ -377,58 +377,6 @@ Experimental elevation filtering, aggressive EQ, and other potentially destructi
        8D + Slow + Reverb MP3
 ```
 
----
-
-# 📂 Project Structure
-
-The project is intentionally kept simple:
-
-```text
-8D-Audio-Processor/
-│
-├── main.py
-├── README.md
-├── requirements.txt
-└── venv/
-```
-
-The `venv` directory is a local Python environment and generally should **not** be committed to GitHub.
-
-Add this to `.gitignore`:
-
-```text
-venv/
-__pycache__/
-*.pyc
-```
-
----
-
-# 📦 Recommended requirements.txt
-
-Create a file named:
-
-```text
-requirements.txt
-```
-
-with:
-
-```text
-pydub
-soundfile
-pedalboard
-audioop-lts
-```
-
-Then installation becomes:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 # ⚠️ Notes
 
 * Use headphones for the intended 8D experience.
